@@ -1,0 +1,8 @@
+2020-12-17T00:12:24.6770226+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-17T00:12:24.7188863+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-17T00:12:24.7204904+05:30  [INF] Content root path: "E:\Outreach-FRMS\Outreach-FRMS-API" (b5d60022)
+2020-12-17T00:13:36.5151078+05:30 8000009e-0005-fc00-b63f-84710c7967bb [INF] GetRestaurantList service startsStored procedure USP_GetRestaurantDataOthers endGetRestaurantList Service executed successfully.Stored procedure USP_GetRestaurantData startStored procedure USP_GetMyContactFavsData startStored procedure USP_GetMyContactFavsData endStored procedure USP_GetRestaurantData startStored procedure USP_GetMyContactFavsData startStored procedure USP_GetMyContactFavsData end (78d85800)
+2020-12-17T00:13:36.5782550+05:30 8000009e-0005-fc00-b63f-84710c7967bb [INF] LogStartMessageGetRestaurantData method executed successfully. (8e2afbe0)
+2020-12-17T01:31:15.4786907+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-17T01:31:15.4909186+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-17T01:31:15.4927874+05:30  [INF] Content root path: "E:\Outreach-FRMS\Outreach-FRMS-API" (b5d60022)

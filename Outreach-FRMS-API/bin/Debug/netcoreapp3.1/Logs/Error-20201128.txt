@@ -1,0 +1,16 @@
+2020-11-28T18:59:38.8358053+05:30 80000033-0005-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1166
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 509
+2020-11-28T19:00:22.5998323+05:30 80000034-0005-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1166
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 509
+2020-11-28T19:04:29.1638772+05:30 80000036-0005-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1166
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 509
+2020-11-28T19:06:36.2614734+05:30 80000037-0005-fb00-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1178
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 509

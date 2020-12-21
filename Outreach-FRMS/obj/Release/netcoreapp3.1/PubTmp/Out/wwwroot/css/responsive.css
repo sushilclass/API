@@ -1,0 +1,343 @@
+/*** Responsive ***/
+
+@media (max-width: 992px) {
+	.login-page .container {
+		width: 300px;
+	}
+	.copyright-text {
+		font-size: 3px;
+	}
+	.hh-sidenav-toggled #layoutSidenav #layoutSidenav_nav {
+		width: 280px;
+		height: 100vh;
+		z-index: 1038;
+	}
+}
+/* ************************************** */
+@media screen and (min-width:541px) {
+	
+	.login-body .login-topnav{
+		position: absolute;
+		right: 0;
+		left: 0;
+	}
+	.form-inline.top-search .input-group {
+		width: 338px;
+	}
+}
+/* ************************************** */
+@media screen and (max-width:540px) {
+	.login-page {
+		font-family: 'montserrat', sans-serif;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 100%;
+		color: #fff;
+		/* background: #222222; */
+		background-image: none;
+	}
+	body.login-body {
+		background-color: #ece7e7;
+	}
+	.login-form {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.welcome-login,
+	.welcome-login-bottom {
+		display: none;
+	}
+	.login-form {
+		height: 100vh;
+	}
+	.login-form img.logo-img {
+		width: 155px;
+	}
+	.login-page .for-pass {
+		font-size: 12px;
+	}
+	.login-body .login-topnav .navbar-brand img{
+		width: 175px;
+	}
+	.navbar-collapse{
+		background: rgb(0, 0, 0);
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: 21px;
+	}
+	.login-body .footer-nav-icon,
+	.login-body .footer-nav{
+		position: relative;
+		background: #01101c;
+		bottom: 0;
+	} 
+	.login-form {
+		border-radius: 0px;
+	}
+	.content {
+		margin: 0 4%;
+		margin-top: 5%;
+	  }
+	  .tabs {
+		height: 40px;
+	  }
+	  .tablinks {
+		height: 40px;
+		font-size: 12px;
+	  }
+	  .tablinks:hover::before {
+		height: 0;
+	  }
+	  .tablinks.active {
+		height: 60px;
+	  }
+	  .tablinks:hover p {
+		color: #686868;
+		opacity: 0.6;
+	  }
+	  .tablinks p:before {
+		display: none;
+	  }
+	  .tabcontent h3 {
+		top: 65px;
+	  }
+	  .tabcontent p {
+		font-size: 14px;
+		line-height: 26px;
+	  }
+	  .wrapper_tabcontent {
+		padding: 40px 10px;
+	}
+	
+}
+/* ************************************** */
+@media screen and (min-width:541px) and (max-width:1024px) {
+	.login-page {
+		font-family: 'montserrat', sans-serif;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 100%;
+		color: #fff;
+		/* background: #222222; */
+		background-image: url(../images/login-bg.png);
+		background-repeat: no-repeat;
+		height: 427px;
+		background-position: inherit;
+		;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+/* ************************************** */
+@media screen and (max-width:480px) {
+	.hh-topnav .navbar-brand img.logo-img {
+		position: relative;
+		width: 97px;
+		padding: 5px;
+	}
+	.hh-topnav .fa-bars {
+		font-size: 20px;
+	}
+	.hh-topnav .nav-item .nav-link {
+		font-size: 12px;
+	}
+	.count-span {
+		background: #ff0000;
+		border: transparent;
+		color: #fff;
+		padding: 2px 5px;
+		border-radius: 13px;
+		font-size: 7px;
+		position: absolute;
+		right: 24%;
+		top: -37%;
+	}
+	.hh-topnav img.admin-img {
+		width: 42px;
+	}
+	.navbar-brand {
+		padding: 0px 0px;
+	}
+	.hh-topnav .navbar-brand img.logo-img {
+		width: 205px;
+		padding: 5px;
+	}
+	.hh-nav-fixed .hh-topnav {
+		z-index: 9999;
+		padding-left: 0px;
+	}
+	.hh-topnav .right-nav{
+		width: 70%;
+	}
+	.hh-nav-fixed #layoutSidenav #layoutSidenav_nav .hh-sidenav .hh-sidenav-menu{
+		position: relative;
+    top: 69px;
+
+	}
+	.dash-bottom-panel {
+		background: #000;
+		width: 100%;
+		margin: 0 auto;
+		padding: 15px;
+		border-radius: 31px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: -56px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.f-button,.f-button.active {
+		background: #3c3b4c;
+		color: #fff;
+		padding: 5px 15px;
+		border-radius: 28px;
+		font-size: 11px;
+		font-weight: 500;
+	}
+	.hh-topnav .nav-item .nav-link {
+		display: flex;
+		align-items: center;
+		padding: 0 -0.25rem;
+	}
+	.top-search{
+		padding: 0px 5px !important;
+	}
+	.hh-topnav .nav-item .nav-link {
+		padding: 0px !important;
+	}
+	.is-collapsed #sidebarToggle{
+		z-index: 9999;
+	}
+	.footer-wrap {
+		flex-direction: column;
+	}
+	#layoutSidenav #layoutSidenav_content{
+		margin-left: -240px !important;
+	}
+}
+/* ************************************** */
+@media only screen and (max-width:991px) and (orientation: landscape) {
+	.welcome-login-bottom,
+	.welcome-login {
+		display: none;
+	}
+	.login-page {
+		font-family: 'montserrat', sans-serif;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 100%;
+		color: #fff;
+		/* background: #222222; */
+		background-image: none;
+	}
+	body.login-body {
+		background-color: #334859 !important;
+	}
+	.login-form {
+		height: 100vh;
+		width: 500px;
+		margin: 0 auto;
+	}
+}
+
+/* ******************** Dashboard ************************* */
+/*** Responsive ***/
+
+@media (min-width: 992px) {
+	#layoutSidenav #layoutSidenav_nav {
+		transform: translateX(0);
+	}
+	#layoutSidenav #layoutSidenav_content {
+		margin-left: 0;
+		transition: margin 0.15s ease-in-out;
+	}
+	
+	.hh-sidenav-toggled #layoutSidenav #layoutSidenav_content {
+		margin-left: -240px;
+	}
+	.hh-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
+		display: none;
+	}
+}
+/* ************************************** */
+@media screen and (max-width:480px) {
+		
+}
+/* ************************************** */
+@media screen and (max-width:991px) {
+	.mb-sm-2 {
+		margin-bottom: 15px;
+	}
+
+	#sidebarToggle{
+		position: absolute;
+		top: 15px;
+		right: 0;
+	}
+	.hh-sidenav-toggled #sidebarToggle{
+		position: absolute;
+    right: 0px;
+	}
+	.hh-sidenav-toggled #layoutSidenav #layoutSidenav_nav .nav-list .nav-link span, .hh-sidenav-toggled #layoutSidenav #layoutSidenav_nav .nav-list .nav-link .fa-angle-down {
+		display: block;
+	}
+	.hh-sidenav-toggled .hh-sidenav .hh-sidenav-menu .nav .nav-link i {
+		color: #fff;
+		margin-right: 10px;
+		margin-left: 15px;
+	}
+	.hh-sidenav-toggled #layoutSidenav .logo-lg {
+		display: inline-block;
+	}
+	.hh-sidenav-toggled #layoutSidenav .small-logo {
+		display: none;
+	}
+	.hh-topnav .img-profile {
+		width: 25px;
+	}
+}
+/* ************************************** */
+@media screen and (min-width:767px) and (max-width:1024px) {
+	.dash-card img {
+		width: 27px;
+	}
+	.dash-card .dash-card-count {
+		font-size: 18px;
+	}
+	.dash-card .dash-card-title {
+		font-size: 16px;
+	}
+	.dash-card p {
+		font-size: 9px;
+	}
+	.dash-icon {
+		padding: 15px 19px;
+	}
+	.dash-card.active p {
+		color: #fff;
+		font-size: 9px;
+	}
+	.dash-card .dash-card-title {
+		font-size: 11px;
+	}
+	.dash-sub-dash {
+		background: #0065b2;
+		color: #fff;
+		padding: 5px 7px;
+		border-radius: 5px;
+		font-size: 6px;
+	}
+	.hh-nav-fixed .hh-topnav {
+		padding-left: 240px;
+	}
+}
+/* ************************************** */
+@media screen and (max-width:768px){
+	.hh-nav-fixed .hh-topnav {
+		padding-left: 0px;
+	}
+}

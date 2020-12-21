@@ -1,0 +1,6 @@
+2020-10-24T19:09:33.7436618+05:30 8000000a-0000-fb00-b63f-84710c7967bb [ERR] Sequence contains more than one matching element (485a7314)
+System.InvalidOperationException: Sequence contains more than one matching element
+   at System.Linq.ThrowHelper.ThrowMoreThanOneMatchException()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Outreach_FRMS_BL.UserService.Validate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 159
+   at Outreach_FRMS_API.Controllers.UserController.UserValidate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 207

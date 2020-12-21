@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS", "Outreach-FRMS\Outreach-FRMS.csproj", "{3F652DE2-5308-4DEC-8AB6-1CE1C6A57647}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-BL", "Outreach-FRMS-BL\Outreach-FRMS-BL.csproj", "{CC1D26D5-2FE6-45B8-8A1D-DF824BFBD871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-DataLayer", "Outreach-FRMS-DataLayer\Outreach-FRMS-DataLayer.csproj", "{A4402846-E8D9-44CA-A516-B64B2609C0FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-LogManager", "Outreach-FRMS-LogManager\Outreach-FRMS-LogManager.csproj", "{D5676C50-7AC7-4C22-8678-D47FBA5F6AC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-Model", "Outreach-FRMS-Model\Outreach-FRMS-Model.csproj", "{35985C2A-BD41-44B5-8431-A6262F461DC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-Utility", "Outreach-FRMS-Utility\Outreach-FRMS-Utility.csproj", "{AD4ADA68-B80F-4B9B-A008-C5D8DE9E885D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outreach-FRMS-API", "Outreach-FRMS-API\Outreach-FRMS-API.csproj", "{54BB0510-8A47-4490-98D1-4AF0895FB79D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1497D0D-238F-4EF7-9389-4706F1A2FF46}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F652DE2-5308-4DEC-8AB6-1CE1C6A57647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F652DE2-5308-4DEC-8AB6-1CE1C6A57647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F652DE2-5308-4DEC-8AB6-1CE1C6A57647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F652DE2-5308-4DEC-8AB6-1CE1C6A57647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1D26D5-2FE6-45B8-8A1D-DF824BFBD871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1D26D5-2FE6-45B8-8A1D-DF824BFBD871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1D26D5-2FE6-45B8-8A1D-DF824BFBD871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1D26D5-2FE6-45B8-8A1D-DF824BFBD871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4402846-E8D9-44CA-A516-B64B2609C0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4402846-E8D9-44CA-A516-B64B2609C0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4402846-E8D9-44CA-A516-B64B2609C0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4402846-E8D9-44CA-A516-B64B2609C0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5676C50-7AC7-4C22-8678-D47FBA5F6AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5676C50-7AC7-4C22-8678-D47FBA5F6AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5676C50-7AC7-4C22-8678-D47FBA5F6AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5676C50-7AC7-4C22-8678-D47FBA5F6AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35985C2A-BD41-44B5-8431-A6262F461DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35985C2A-BD41-44B5-8431-A6262F461DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35985C2A-BD41-44B5-8431-A6262F461DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35985C2A-BD41-44B5-8431-A6262F461DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4ADA68-B80F-4B9B-A008-C5D8DE9E885D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4ADA68-B80F-4B9B-A008-C5D8DE9E885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4ADA68-B80F-4B9B-A008-C5D8DE9E885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4ADA68-B80F-4B9B-A008-C5D8DE9E885D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BB0510-8A47-4490-98D1-4AF0895FB79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BB0510-8A47-4490-98D1-4AF0895FB79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BB0510-8A47-4490-98D1-4AF0895FB79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BB0510-8A47-4490-98D1-4AF0895FB79D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C30C47DD-FBC1-4C3A-A47B-EDDBADD92E7F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs01:8080/tfs/chetuprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Outreach-FRMS-API\\Outreach-FRMS-API.csproj
+		SccProjectName1 = Outreach-FRMS-API
+		SccLocalPath1 = Outreach-FRMS-API
+		SccProjectUniqueName2 = Outreach-FRMS-BL\\Outreach-FRMS-BL.csproj
+		SccProjectName2 = Outreach-FRMS-BL
+		SccLocalPath2 = Outreach-FRMS-BL
+		SccProjectUniqueName3 = Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj
+		SccProjectName3 = Outreach-FRMS-DataLayer
+		SccLocalPath3 = Outreach-FRMS-DataLayer
+		SccProjectUniqueName4 = Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj
+		SccProjectName4 = Outreach-FRMS-LogManager
+		SccLocalPath4 = Outreach-FRMS-LogManager
+		SccProjectUniqueName5 = Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj
+		SccProjectName5 = Outreach-FRMS-Model
+		SccLocalPath5 = Outreach-FRMS-Model
+		SccProjectUniqueName6 = Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj
+		SccProjectName6 = Outreach-FRMS-Utility
+		SccLocalPath6 = Outreach-FRMS-Utility
+		SccProjectUniqueName7 = Outreach-FRMS\\Outreach-FRMS.csproj
+		SccProjectName7 = Outreach-FRMS
+		SccLocalPath7 = Outreach-FRMS
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+2020-11-27T22:36:43.2942066+05:30 800000f6-0003-f800-b63f-84710c7967bb [ERR] Error converting value {null} to type 'System.Int64'. Path '[3].UserId', line 1, position 389. (2ce611e7)
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Int64'. Path '[3].UserId', line 1, position 389.
+ ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetServiceDataList() in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 385
+   at Outreach_FRMS_BL.UserService.GetBusinessProfileData(ServiceDataModel model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 2759
+   at Outreach_FRMS_API.Controllers.UserController.GetBusinessProfile(ServiceDataModel model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 1606

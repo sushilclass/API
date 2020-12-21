@@ -1,0 +1,12 @@
+2020-11-10T23:25:18.7312568+05:30 80000010-0004-f500-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.String'. (372ba9fa)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.String'.
+   at System.Data.DataRowExtensions.UnboxT`1.ReferenceOrNullableField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 902
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 490
+2020-11-10T23:26:21.6015347+05:30 80000011-0004-f500-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.String' to type 'System.Int64'. (85601132)
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int64'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 910
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 490

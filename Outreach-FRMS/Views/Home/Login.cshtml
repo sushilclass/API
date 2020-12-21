@@ -1,0 +1,81 @@
+﻿@*@{
+        ViewData["Title"] = "Login";
+    }
+
+    <h1>Login</h1>*@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OutReach | Login</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <!-- Fonts and icons -->
+    <link href="~/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">    
+</head>
+
+<body class="login-body">
+    <div class="box">
+        <div class="inner-box"></div>
+    </div>
+    <div class="login-page">
+        <div class="login-form">
+            <div class="login-item">
+                <form action="" method="post" class="form form-login">
+                    <h5 class="mb-4 color-green font-weight-bold">LOGIN</h5>
+                    <div class="form-field">
+                        <input id="login-username" type="text" class="form-input email-input"
+                               placeholder="Email Address" value="myuser@gmail.com" required>
+                        <label><i class="fas fa-envelope"></i></label>
+                    </div>
+                    <div class="form-field">
+                        <input id="login-password" type="password" class="form-input password-input"
+                               placeholder="Password" value="123456" required>
+                        <label class="lock mb-0" for="login-password">
+                            <span class="hidden">Password</span>
+                            <i class="fas fa-eye"></i>
+                        </label>
+                    </div>
+                    <div class="form-group form-check d-flex align-items-center justify-content-between mb-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                        <a href="#" class="forgot-login">
+                            <h4 class="for-pass mb-0 color-green">Forgot Password?</h4>
+                        </a>
+                    </div>
+
+                    <div class="form-field border-0 mb-4 primary-bg submit-btn d-flex align-items-center">
+                        <input type="submit" value="Log in" class="" id="btnLogin">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <h6 class="text-center">
+                        I'm New User <span class="font-weight-bold">
+                            @*<a class="color-green" href="#">Sign Up</a>*@
+                            @Html.ActionLink("Sign Up", "SignUp", "Home")
+                        </span>
+                    </h6>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-nav w-100">
+        <p class="copyright mb-0 text-white">©2020 OutReach. All rights reserved.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/Default.js"></script>
+   
+   
+</body>
+
+</html>

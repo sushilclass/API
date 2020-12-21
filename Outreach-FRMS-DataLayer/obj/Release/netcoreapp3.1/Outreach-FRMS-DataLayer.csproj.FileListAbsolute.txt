@@ -1,0 +1,9 @@
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\bin\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.deps.json
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\bin\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.dll
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\bin\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.pdb
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.csprojAssemblyReference.cache
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.AssemblyInfoInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.AssemblyInfo.cs
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.csproj.CoreCompileInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.dll
+E:\Outreach-FRMS\Outreach-FRMS-DataLayer\obj\Release\netcoreapp3.1\Outreach-FRMS-DataLayer.pdb

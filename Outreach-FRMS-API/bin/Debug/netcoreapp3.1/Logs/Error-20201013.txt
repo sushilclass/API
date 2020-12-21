@@ -1,0 +1,26 @@
+2020-10-13T15:37:58.6157536+05:30 80000180-0000-fd00-b63f-84710c7967bb [ERR] Column 'DocumentId' does not belong to table . (3bad7abf)
+System.ArgumentException: Column 'DocumentId' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserList() in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 80
+   at Outreach_FRMS_BL.UserService.Validate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 114
+   at Outreach_FRMS_API.Controllers.UserController.UserValidate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 200
+2020-10-13T19:36:47.6861654+05:30 800000e0-0001-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Outreach_FRMS_API.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in E:\Outreach-FRMS\Outreach-FRMS-API\Helpers\JwtMiddleware.cs:line 39
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

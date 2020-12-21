@@ -1,0 +1,63 @@
+2020-10-30T16:22:50.2619735+05:30 8000002d-0004-fa00-b63f-84710c7967bb [ERR] 'Outreach_FRMS_Model.ResponseModel' does not contain a definition for 'UserId' (74fa7e3e)
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Outreach_FRMS_Model.ResponseModel' does not contain a definition for 'UserId'
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Outreach_FRMS_API.Controllers.UserController.UserSignUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 79
+2020-10-30T16:27:40.8444830+05:30 80000084-0001-ff00-b63f-84710c7967bb [ERR] Index was outside the bounds of the array. (da24d145)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Outreach_FRMS_API.Controllers.UserController.UserSignUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 54
+2020-10-30T16:29:28.2360071+05:30 80000085-0001-ff00-b63f-84710c7967bb [ERR] Index was outside the bounds of the array. (da24d145)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Outreach_FRMS_API.Controllers.UserController.UserSignUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 54
+2020-10-30T16:30:29.4750590+05:30 80000086-0001-ff00-b63f-84710c7967bb [ERR] Index was outside the bounds of the array. (da24d145)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Outreach_FRMS_API.Controllers.UserController.UserSignUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 54
+2020-10-30T16:31:26.1383826+05:30 80000087-0001-ff00-b63f-84710c7967bb [ERR] A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) (ef72239a)
+Microsoft.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+ ---> System.ComponentModel.Win32Exception (121): The semaphore timeout period has expired.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetUserList() in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 51
+   at Outreach_FRMS_BL.UserService.SingUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 219
+   at Outreach_FRMS_API.Controllers.UserController.UserSignUp(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 51
+ClientConnectionId:a134cce1-a814-4e94-95a9-2f7dab621efe
+Error Number:121,State:0,Class:20
+2020-10-30T17:35:08.4294625+05:30 8000001b-0005-fc00-b63f-84710c7967bb [ERR] Additional text encountered after finished reading JSON content: ,. Path '', line 1, position 26810. (2714622f)
+Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: ,. Path '', line 1, position 26810.
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 797
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-30T17:35:23.6680389+05:30 8000001c-0005-fc00-b63f-84710c7967bb [ERR] Additional text encountered after finished reading JSON content: ,. Path '', line 1, position 26810. (2714622f)
+Newtonsoft.Json.JsonReaderException: Additional text encountered after finished reading JSON content: ,. Path '', line 1, position 26810.
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 797
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489

@@ -1,0 +1,23 @@
+2020-10-27T22:29:26.7183028+05:30 80000064-0004-f800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.ArgumentException: Illegal characters in path. (Parameter 'path')
+   at System.IO.Path.GetFullPath(String path)
+   at System.IO.FileInfo..ctor(String originalPath, String fullPath, String fileName, Boolean isNormalized)
+   at System.IO.FileInfo..ctor(String fileName)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.PhysicalFileResultExecutor.GetFileInfo(String path)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.PhysicalFileResultExecutor.ExecuteAsync(ActionContext context, PhysicalFileResult result)
+   at Microsoft.AspNetCore.Mvc.PhysicalFileResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Outreach_FRMS_API.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in E:\Outreach-FRMS\Outreach-FRMS-API\Helpers\JwtMiddleware.cs:line 39
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

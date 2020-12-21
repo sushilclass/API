@@ -1,0 +1,12 @@
+E:\Outreach-FRMS\Outreach-FRMS-Model\bin\Release\netcoreapp3.1\Outreach-FRMS-Model.deps.json
+E:\Outreach-FRMS\Outreach-FRMS-Model\bin\Release\netcoreapp3.1\Outreach-FRMS-Model.dll
+E:\Outreach-FRMS\Outreach-FRMS-Model\bin\Release\netcoreapp3.1\Outreach-FRMS-Model.pdb
+E:\Outreach-FRMS\Outreach-FRMS-Model\bin\Release\netcoreapp3.1\Outreach-FRMS-Utility.dll
+E:\Outreach-FRMS\Outreach-FRMS-Model\bin\Release\netcoreapp3.1\Outreach-FRMS-Utility.pdb
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.csprojAssemblyReference.cache
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.AssemblyInfoInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.AssemblyInfo.cs
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.csproj.CoreCompileInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.csproj.CopyComplete
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.dll
+E:\Outreach-FRMS\Outreach-FRMS-Model\obj\Release\netcoreapp3.1\Outreach-FRMS-Model.pdb

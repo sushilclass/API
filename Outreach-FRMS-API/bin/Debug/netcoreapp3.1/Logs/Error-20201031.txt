@@ -1,0 +1,66 @@
+2020-10-31T15:49:37.2592531+05:30 800000a6-0001-fe00-b63f-84710c7967bb [ERR] Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') (35594d9d)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 764
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T15:50:28.7187687+05:30 800000c0-0005-fe00-b63f-84710c7967bb [ERR] Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index') (35594d9d)
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 764
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:44:30.7014326+05:30 8000001b-0004-fb00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:48:11.5931134+05:30 8000001e-0004-fb00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:49:01.2690309+05:30 8000002d-0005-fc00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:52:49.7206824+05:30 800000b9-0001-fe00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:54:16.6534620+05:30 800000bb-0001-fe00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T16:56:07.1964437+05:30 800000df-0005-fe00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.Int32'. (45b8ab22)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.Int32'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 812
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489
+2020-10-31T17:34:46.1323555+05:30 80000092-0000-fd00-b63f-84710c7967bb [ERR] Error converting value {null} to type 'System.DateTime'. Path '[0].CreatedDate', line 1, position 270. (76439db3)
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.DateTime'. Path '[0].CreatedDate', line 1, position 270.
+ ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 800
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 489

@@ -1,0 +1,120 @@
+2020-12-14T16:43:58.8359124+05:30 8000000f-0000-fd00-b63f-84710c7967bb [ERR] There is already an open DataReader associated with this Connection which must be closed first. (530c545c)
+System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1389
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+2020-12-14T17:21:44.5309630+05:30 8000001d-0001-fb00-b63f-84710c7967bb [ERR] The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied. (e1a8899a)
+Microsoft.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1379
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+ClientConnectionId:886c4128-a9d3-4524-ae6d-a0049735d83e
+Error Number:8178,State:1,Class:16
+2020-12-14T17:27:39.4856229+05:30 80000003-0004-f800-b63f-84710c7967bb [ERR] The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied. (e1a8899a)
+Microsoft.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1404
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+ClientConnectionId:c1bd333a-db25-4d74-af08-d3ccb2c95a6e
+Error Number:8178,State:1,Class:16
+2020-12-14T17:38:20.3224634+05:30 8000002d-0000-fc00-b63f-84710c7967bb [ERR] The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied. (e1a8899a)
+Microsoft.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1453
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+ClientConnectionId:94e39e69-a62b-488a-b8d8-c07a99f849cd
+Error Number:8178,State:1,Class:16
+2020-12-14T17:51:12.5437480+05:30 80000033-0000-fc00-b63f-84710c7967bb [ERR] The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied. (e1a8899a)
+Microsoft.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@Type1 nvarchar(6),@Type2 nvarchar(4000),@Type3 nvarchar(4000),' expects the parameter '@Type2', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1376
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+ClientConnectionId:4195d88b-aa6d-4004-abf7-1a3d7c4a5a9b
+Error Number:8178,State:1,Class:16
+2020-12-14T18:22:03.5634273+05:30 80000031-0001-fb00-b63f-84710c7967bb [ERR] Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.FavsSearchData' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1. (946db803)
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.FavsSearchData' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1385
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640
+2020-12-14T19:08:54.5000006+05:30 80000036-0000-fd00-b63f-84710c7967bb [ERR] Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.FavsSearchData' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1. (946db803)
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.FavsSearchData' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.GetRestaurantList(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1386
+   at Outreach_FRMS_API.Controllers.UserController.GetRestaurantData(SearchRequest searchdata) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 640

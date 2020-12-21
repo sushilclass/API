@@ -1,0 +1,5 @@
+2020-12-16T15:25:30.6291444+05:30 80000043-0005-f900-b63f-84710c7967bb [ERR] Object reference not set to an instance of an object. (f59a5554)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Outreach_FRMS_Model.AuthenticateResponse..ctor(ViewModel _viewModel, String token) in E:\Outreach-FRMS\Outreach-FRMS-Model\AuthenticateResponse.cs:line 27
+   at Outreach_FRMS_BL.UserService.Validate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 488
+   at Outreach_FRMS_API.Controllers.UserController.UserValidate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 299

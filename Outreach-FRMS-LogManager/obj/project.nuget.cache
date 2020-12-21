@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "DkinONVYbEBtpKAn75bBK3lWWUjYSETcZUeEeDWnbLm/uF8jXLHyw1ky7cOrts3TWUAuz0ppyBn9Nb3ZjLEXUA==",
+  "success": true,
+  "projectFilePath": "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.0\\microsoft.codeanalysis.fxcopanalyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.0\\microsoft.codeanalysis.versioncheckanalyzer.3.3.0.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.codequality.analyzers\\3.3.0\\microsoft.codequality.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.netcore.analyzers\\3.3.0\\microsoft.netcore.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\sushilk3\\.nuget\\packages\\microsoft.netframework.analyzers\\3.3.0\\microsoft.netframework.analyzers.3.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

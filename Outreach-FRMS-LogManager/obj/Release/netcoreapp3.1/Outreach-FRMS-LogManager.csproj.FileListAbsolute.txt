@@ -1,0 +1,9 @@
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\bin\Release\netcoreapp3.1\Outreach-FRMS-LogManager.deps.json
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\bin\Release\netcoreapp3.1\Outreach-FRMS-LogManager.dll
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\bin\Release\netcoreapp3.1\Outreach-FRMS-LogManager.pdb
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.csprojAssemblyReference.cache
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.AssemblyInfoInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.AssemblyInfo.cs
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.csproj.CoreCompileInputs.cache
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.dll
+E:\Outreach-FRMS\Outreach-FRMS-LogManager\obj\Release\netcoreapp3.1\Outreach-FRMS-LogManager.pdb

@@ -1,0 +1,18 @@
+2020-11-05T19:26:46.1569996+05:30 800000f4-0003-fb00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.String' to type 'System.Int64'. (85601132)
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Int64'.
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 807
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 490
+2020-11-05T19:54:00.5097455+05:30 80000064-0002-fd00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.String'. (372ba9fa)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.String'.
+   at System.Data.DataRowExtensions.UnboxT`1.ReferenceOrNullableField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 807
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 490
+2020-11-05T19:54:56.8185376+05:30 80000065-0002-fd00-b63f-84710c7967bb [ERR] Unable to cast object of type 'System.Int64' to type 'System.String'. (372ba9fa)
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.String'.
+   at System.Data.DataRowExtensions.UnboxT`1.ReferenceOrNullableField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 807
+   at Outreach_FRMS_API.Controllers.UserController.GetUserDetails(Users model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 490

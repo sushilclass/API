@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminEmail" xml:space="preserve">
+    <value>sushilk3@chetu.com</value>
+  </data>
+  <data name="ApplicationInviteeAPI" xml:space="preserve">
+    <value>ApplicationInvitee</value>
+  </data>
+  <data name="ApplicationInviteMessage" xml:space="preserve">
+    <value>Application Invitation Send Successfully.</value>
+  </data>
+  <data name="ApplicationInviteMethod" xml:space="preserve">
+    <value>ApplicationInvite</value>
+  </data>
+  <data name="ApplicationInviteSP" xml:space="preserve">
+    <value>USP_SaveApplicationInvitee</value>
+  </data>
+  <data name="BusinessCategoryListAPI" xml:space="preserve">
+    <value>BusinessCategoryList</value>
+  </data>
+  <data name="BusinessClaimGetMethod" xml:space="preserve">
+    <value>BusinessClaimGet</value>
+  </data>
+  <data name="BusinessClaimSaveMethod" xml:space="preserve">
+    <value>BusinessClaimSave</value>
+  </data>
+  <data name="BusinessProfileDataMethod" xml:space="preserve">
+    <value>BusinessProfileData</value>
+  </data>
+  <data name="BusinessProfileUpdateMethod" xml:space="preserve">
+    <value>BusinessProfileUpdate</value>
+  </data>
+  <data name="CheckEmailResetPassword" xml:space="preserve">
+    <value>Please check email to reset the password.</value>
+  </data>
+  <data name="ContactAddSuccess" xml:space="preserve">
+    <value>Contact added successfully.</value>
+  </data>
+  <data name="ContactAlreadySaved" xml:space="preserve">
+    <value>This contact is already saved by this user.</value>
+  </data>
+  <data name="ContactDeleteMessage" xml:space="preserve">
+    <value>Contact delete duccessfully.</value>
+  </data>
+  <data name="ContactExist" xml:space="preserve">
+    <value>Contact already exist.</value>
+  </data>
+  <data name="ContryListSP" xml:space="preserve">
+    <value>USP_GetCountryList</value>
+  </data>
+  <data name="DataSaved" xml:space="preserve">
+    <value>Data saved successfully.</value>
+  </data>
+  <data name="DeleteApplicationInvitee" xml:space="preserve">
+    <value>USP_DeleteApplicationInvitee</value>
+  </data>
+  <data name="DeleteContact" xml:space="preserve">
+    <value>DeleteContact</value>
+  </data>
+  <data name="DeleteContactInviteeSP" xml:space="preserve">
+    <value>USP_DeleteContactInvitee</value>
+  </data>
+  <data name="DeleteContactSP" xml:space="preserve">
+    <value>USP_DeleteContact</value>
+  </data>
+  <data name="DeleteDocument" xml:space="preserve">
+    <value>DeleteDocument</value>
+  </data>
+  <data name="DeleteDocumentResponse" xml:space="preserve">
+    <value>Document delete successfully.</value>
+  </data>
+  <data name="DeleteDocumentSP" xml:space="preserve">
+    <value>USP_DeleteUserDocument</value>
+  </data>
+  <data name="DeleteMyFav" xml:space="preserve">
+    <value>DeleteMyFav</value>
+  </data>
+  <data name="DeleteMyFavMessage" xml:space="preserve">
+    <value>My fav delete successfully.</value>
+  </data>
+  <data name="DeleteMyFavsSP" xml:space="preserve">
+    <value>USP_DeleteMyFavs</value>
+  </data>
+  <data name="DocumentNotExist" xml:space="preserve">
+    <value>User document does not exist.</value>
+  </data>
+  <data name="DocumentUploadSuccess" xml:space="preserve">
+    <value>Document upload successfully.</value>
+  </data>
+  <data name="EncryptionKey" xml:space="preserve">
+    <value>MAKV2SPBNI99212</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ExecutedSuccessfully" xml:space="preserve">
+    <value>{MethodName} method executed successfully.</value>
+  </data>
+  <data name="FeedbackSaveMethod" xml:space="preserve">
+    <value>FeedbackSave</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>ForgotPassword</value>
+  </data>
+  <data name="GenerateJwtToken" xml:space="preserve">
+    <value>GenerateJwtToken</value>
+  </data>
+  <data name="GetAppInviteListSP" xml:space="preserve">
+    <value>USP_GetApplicationInviteeList</value>
+  </data>
+  <data name="GetApplicationInviteMethod" xml:space="preserve">
+    <value>GetApplicationInvite</value>
+  </data>
+  <data name="GetBusinessCategorySP" xml:space="preserve">
+    <value>USP_GetBusinessCategory</value>
+  </data>
+  <data name="GetBusinessClaimAPI" xml:space="preserve">
+    <value>GetBusinessClaim</value>
+  </data>
+  <data name="GetBusinessClaimedDataSP" xml:space="preserve">
+    <value>USP_GetBusinessClaimData</value>
+  </data>
+  <data name="GetBusinessProfileAPI" xml:space="preserve">
+    <value>GetBusinessProfile</value>
+  </data>
+  <data name="GetBusinessProfileSP" xml:space="preserve">
+    <value>USP_GetBusinessProfile</value>
+  </data>
+  <data name="GetBusinessSubCategorySP" xml:space="preserve">
+    <value>USP_GetBusinessSubCategory</value>
+  </data>
+  <data name="GetBusinessTypeSP" xml:space="preserve">
+    <value>USP_GetBusinessType</value>
+  </data>
+  <data name="GetCategoryListMethod" xml:space="preserve">
+    <value>GetCategoryList</value>
+  </data>
+  <data name="GetClaimListMethod" xml:space="preserve">
+    <value>GetBusinessClaimList</value>
+  </data>
+  <data name="GetClaimListSP" xml:space="preserve">
+    <value>USP_GetBusinessClaimList</value>
+  </data>
+  <data name="GetContactDataSP" xml:space="preserve">
+    <value>USP_GetContactData</value>
+  </data>
+  <data name="GetContactListSP" xml:space="preserve">
+    <value>USP_GetContactList</value>
+  </data>
+  <data name="GetContactsList" xml:space="preserve">
+    <value>GetContactsList</value>
+  </data>
+  <data name="GetCountryListAPI" xml:space="preserve">
+    <value>GetCountryList</value>
+  </data>
+  <data name="GetCountryMethod" xml:space="preserve">
+    <value>GetCountry</value>
+  </data>
+  <data name="GetInviteeList" xml:space="preserve">
+    <value>GetInviteeList</value>
+  </data>
+  <data name="GetInviteeListSP" xml:space="preserve">
+    <value>USP_GetInviteeList</value>
+  </data>
+  <data name="GetInviteeSP" xml:space="preserve">
+    <value>USP_GetInviteeContact</value>
+  </data>
+  <data name="GetInvitorList" xml:space="preserve">
+    <value>GetInvitorList</value>
+  </data>
+  <data name="GetInvitorSP" xml:space="preserve">
+    <value>USP_GetInvitorContact</value>
+  </data>
+  <data name="GetLeaderBoardMethod" xml:space="preserve">
+    <value>GetLeaderBoard</value>
+  </data>
+  <data name="GetListMyFavsSP" xml:space="preserve">
+    <value>USP_GetMyFavs</value>
+  </data>
+  <data name="GetListSP" xml:space="preserve">
+    <value>USP_GetUsers</value>
+  </data>
+  <data name="GetMyContactFavList" xml:space="preserve">
+    <value>GetMyContactFavList</value>
+  </data>
+  <data name="GetMyContactFavListSP" xml:space="preserve">
+    <value>USP_GetMyContactFavsList</value>
+  </data>
+  <data name="GetMyContactFavSP" xml:space="preserve">
+    <value>USP_GetMyContactFavsData</value>
+  </data>
+  <data name="GetMyFavsList" xml:space="preserve">
+    <value>GetMyFavsList</value>
+  </data>
+  <data name="GetMyFavsListSP" xml:space="preserve">
+    <value>USP_GetMyFavsList</value>
+  </data>
+  <data name="GetMyFavsSP" xml:space="preserve">
+    <value>USP_GetMyFavs</value>
+  </data>
+  <data name="GetOtherLeaderBoard" xml:space="preserve">
+    <value>GetOtherLeaderBoard</value>
+  </data>
+  <data name="GetOtherLeaderBoardSP" xml:space="preserve">
+    <value>USP_GetOthersInLeaderBoard</value>
+  </data>
+  <data name="GetRestaurantData" xml:space="preserve">
+    <value>GetRestaurantData</value>
+  </data>
+  <data name="GetRestaurantDataMyContactfavsSP" xml:space="preserve">
+    <value>USP_GetRestaurantDataMyContactFavs</value>
+  </data>
+  <data name="GetRestaurantDataMyfavsSP" xml:space="preserve">
+    <value>USP_GetRestaurantDataMyFavs</value>
+  </data>
+  <data name="GetRestaurantDataOthersfavsSP" xml:space="preserve">
+    <value>USP_GetRestaurantDataOthers</value>
+  </data>
+  <data name="GetRestaurantDataSP" xml:space="preserve">
+    <value>USP_GetRestaurantData</value>
+  </data>
+  <data name="GetRestaurantList" xml:space="preserve">
+    <value>GetRestaurantList</value>
+  </data>
+  <data name="GetServiceDataListMethod" xml:space="preserve">
+    <value>GetServiceDataList</value>
+  </data>
+  <data name="GetServiceDataListSP" xml:space="preserve">
+    <value>USP_GetServiceDataList</value>
+  </data>
+  <data name="GetUserDataSP" xml:space="preserve">
+    <value>USP_GetUserData</value>
+  </data>
+  <data name="GetUserDetails" xml:space="preserve">
+    <value>GetUserDetails</value>
+  </data>
+  <data name="GetUserDocDataSP" xml:space="preserve">
+    <value>USP_GetUserDocumentData</value>
+  </data>
+  <data name="GetUserList" xml:space="preserve">
+    <value>GetUserList</value>
+  </data>
+  <data name="GetUsers" xml:space="preserve">
+    <value>GetUsers</value>
+  </data>
+  <data name="GetUsersMethod" xml:space="preserve">
+    <value>USP_GetUserList</value>
+  </data>
+  <data name="InvitationAlreadySentMessage" xml:space="preserve">
+    <value>Invitation already send for this user and sending again.</value>
+  </data>
+  <data name="InvitationMessage" xml:space="preserve">
+    <value>Invitation send successfully.</value>
+  </data>
+  <data name="Invitee" xml:space="preserve">
+    <value>Invitee</value>
+  </data>
+  <data name="InviteeDoesNotExistMessage" xml:space="preserve">
+    <value>Invitee does not exist.</value>
+  </data>
+  <data name="InviteeList" xml:space="preserve">
+    <value>InviteeList</value>
+  </data>
+  <data name="InviteeStatusUpdateMessage" xml:space="preserve">
+    <value>Status update successfully.</value>
+  </data>
+  <data name="Invitor" xml:space="preserve">
+    <value>Invitor</value>
+  </data>
+  <data name="InvitorDoesNotExistMessage" xml:space="preserve">
+    <value>Invitor does not exist.</value>
+  </data>
+  <data name="InvotorOrInviteeNotExistMessage" xml:space="preserve">
+    <value>Invitor or Invitee does not exist.</value>
+  </data>
+  <data name="LeaderBoardAPI" xml:space="preserve">
+    <value>LeaderBoard</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Username or password is incorrect</value>
+  </data>
+  <data name="LoginResponseMessage" xml:space="preserve">
+    <value>Login successfully !</value>
+  </data>
+  <data name="LoginStartMessage" xml:space="preserve">
+    <value>{MethodName} method starts with request parameters : {RequestParameter}</value>
+  </data>
+  <data name="LogServiceStartMessage" xml:space="preserve">
+    <value>{MethodName} service starts</value>
+  </data>
+  <data name="LogStartMessage" xml:space="preserve">
+    <value>LogStartMessage</value>
+  </data>
+  <data name="MyContactFavSave" xml:space="preserve">
+    <value>MyContactFavSave</value>
+  </data>
+  <data name="MyFavsSave" xml:space="preserve">
+    <value>MyFavsSave</value>
+  </data>
+  <data name="MyProfileUpdate" xml:space="preserve">
+    <value>MyProfileUpdate</value>
+  </data>
+  <data name="PasswordUpdateSuccess" xml:space="preserve">
+    <value>Password update successfully.</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>ResetPassword</value>
+  </data>
+  <data name="ResetPasswordSP" xml:space="preserve">
+    <value>USP_ResetPassword</value>
+  </data>
+  <data name="RestaurantDataSaveMethod" xml:space="preserve">
+    <value>RestaurantDataSave</value>
+  </data>
+  <data name="RestaurantNotExist" xml:space="preserve">
+    <value>This Restaurant does not exist.</value>
+  </data>
+  <data name="RestraurantAlreadyFavsByYourContactId" xml:space="preserve">
+    <value>This Restaurant already favs by your contact friend id.</value>
+  </data>
+  <data name="SaveBusinessClaimSP" xml:space="preserve">
+    <value>USP_SaveClaimBusiness</value>
+  </data>
+  <data name="SaveClaimBusinessAPI" xml:space="preserve">
+    <value>SaveClaimBusiness</value>
+  </data>
+  <data name="SaveContact" xml:space="preserve">
+    <value>SaveContact</value>
+  </data>
+  <data name="SaveContactSP" xml:space="preserve">
+    <value>USP_SaveContact</value>
+  </data>
+  <data name="SaveFeedbackAPI" xml:space="preserve">
+    <value>SaveFeedback</value>
+  </data>
+  <data name="SaveFeedbackSP" xml:space="preserve">
+    <value>USP_SaveFeedback</value>
+  </data>
+  <data name="SaveInviteeSP" xml:space="preserve">
+    <value>USP_SaveInvitee</value>
+  </data>
+  <data name="SaveInvitorSP" xml:space="preserve">
+    <value>USP_SaveInvitor</value>
+  </data>
+  <data name="SaveMyContactFavSP" xml:space="preserve">
+    <value>USP_SaveMyContactFavs</value>
+  </data>
+  <data name="SaveMyFavsSP" xml:space="preserve">
+    <value>USP_SaveMyFavs</value>
+  </data>
+  <data name="SaveRestaurantAPI" xml:space="preserve">
+    <value>SaveRestaurant</value>
+  </data>
+  <data name="SaveRestaurantDataSP" xml:space="preserve">
+    <value>USP_SaveExternalServiceData</value>
+  </data>
+  <data name="SaveSearchSP" xml:space="preserve">
+    <value>USP_SaveServiceData</value>
+  </data>
+  <data name="SaveSuggestionAPI" xml:space="preserve">
+    <value>SaveSuggestion</value>
+  </data>
+  <data name="SaveSuggestionSP" xml:space="preserve">
+    <value>USP_SaveSuggestion</value>
+  </data>
+  <data name="SaveUserDocSP" xml:space="preserve">
+    <value>USP_SaveUserDocument</value>
+  </data>
+  <data name="SecretKey" xml:space="preserve">
+    <value>Outreach project key for token validation</value>
+  </data>
+  <data name="ServiceExecutedSuccessfully" xml:space="preserve">
+    <value>{MethodName} Service executed successfully.</value>
+  </data>
+  <data name="ServiceExecuteStart" xml:space="preserve">
+    <value>{MethodName} service starts</value>
+  </data>
+  <data name="SignUpSP" xml:space="preserve">
+    <value>USP_SaveUser</value>
+  </data>
+  <data name="SingUp" xml:space="preserve">
+    <value>SingUp</value>
+  </data>
+  <data name="SPExecutionEnd" xml:space="preserve">
+    <value>Stored procedure {SPName} end</value>
+  </data>
+  <data name="SPExecutionStart" xml:space="preserve">
+    <value>Stored procedure {SPName} start</value>
+  </data>
+  <data name="StatusUpdateInvitee" xml:space="preserve">
+    <value>StatusUpdateInvitee</value>
+  </data>
+  <data name="SuggestionSaveMethod" xml:space="preserve">
+    <value>SuggestionSave</value>
+  </data>
+  <data name="UpdateBusinessProfileAPI" xml:space="preserve">
+    <value>UpdateBusinessProfile</value>
+  </data>
+  <data name="UpdateBusinessProfileSP" xml:space="preserve">
+    <value>USP_UpdateBusinessProfile</value>
+  </data>
+  <data name="UpdateInviteeStatusSP" xml:space="preserve">
+    <value>USP_UpdateInviteeStatus</value>
+  </data>
+  <data name="UpdateProfileSP" xml:space="preserve">
+    <value>USP_UpdateUserProfile</value>
+  </data>
+  <data name="UploadFiles" xml:space="preserve">
+    <value>UploadFiles</value>
+  </data>
+  <data name="UserAlreadyFavRestrRestaurant" xml:space="preserve">
+    <value>User already favs this Restaurant.</value>
+  </data>
+  <data name="UserClaimedBusiness" xml:space="preserve">
+    <value>This user already claim this Business.</value>
+  </data>
+  <data name="UserDeleteDocument" xml:space="preserve">
+    <value>UserDeleteDocument</value>
+  </data>
+  <data name="UserDocExist" xml:space="preserve">
+    <value>User document already exist.</value>
+  </data>
+  <data name="UserDocumentNotExist" xml:space="preserve">
+    <value>User Document does not exist.</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>User already exist.</value>
+  </data>
+  <data name="UserIdOrRestraIdNotExist" xml:space="preserve">
+    <value>UserId or RestaurantId not exist.</value>
+  </data>
+  <data name="UserNotClaimBusiness" xml:space="preserve">
+    <value>You have not claimed business.</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>User does not exist.</value>
+  </data>
+  <data name="UserNotSaveContactMessage" xml:space="preserve">
+    <value>This user not saved contact.</value>
+  </data>
+  <data name="UserProfileUpdate" xml:space="preserve">
+    <value>Profile update successfully.</value>
+  </data>
+  <data name="UserSignResturentSearch" xml:space="preserve">
+    <value>USP_SaveUserandRestaurantSearch</value>
+  </data>
+  <data name="UserSignUp" xml:space="preserve">
+    <value>UserSignUp</value>
+  </data>
+  <data name="UserValidate" xml:space="preserve">
+    <value>UserValidate</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+</root>

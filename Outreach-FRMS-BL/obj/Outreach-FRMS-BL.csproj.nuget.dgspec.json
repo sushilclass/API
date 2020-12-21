@@ -1,0 +1,392 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Outreach-FRMS\\Outreach-FRMS-BL\\Outreach-FRMS-BL.csproj": {}
+  },
+  "projects": {
+    "E:\\Outreach-FRMS\\Outreach-FRMS-BL\\Outreach-FRMS-BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Outreach-FRMS\\Outreach-FRMS-BL\\Outreach-FRMS-BL.csproj",
+        "projectName": "Outreach-FRMS-BL",
+        "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-BL\\Outreach-FRMS-BL.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\Outreach-FRMS\\Outreach-FRMS-BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj": {
+                "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj"
+              },
+              "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj": {
+                "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj"
+              },
+              "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj": {
+                "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj"
+              },
+              "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj": {
+                "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EnterpriseLibrary.Data.NetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj",
+        "projectName": "Outreach-FRMS-DataLayer",
+        "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\Outreach-FRMS-DataLayer.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\Outreach-FRMS\\Outreach-FRMS-DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj",
+        "projectName": "Outreach-FRMS-LogManager",
+        "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\Outreach-FRMS-LogManager.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\Outreach-FRMS\\Outreach-FRMS-LogManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj",
+        "projectName": "Outreach-FRMS-Model",
+        "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\Outreach-FRMS-Model.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj": {
+                "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj",
+        "projectName": "Outreach-FRMS-Utility",
+        "projectPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\Outreach-FRMS-Utility.csproj",
+        "packagesPath": "C:\\Users\\sushilk3\\.nuget\\packages\\",
+        "outputPath": "E:\\Outreach-FRMS\\Outreach-FRMS-Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sushilk3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

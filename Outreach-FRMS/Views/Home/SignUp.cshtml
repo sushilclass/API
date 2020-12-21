@@ -1,0 +1,421 @@
+﻿@*@{
+        ViewData["Title"] = "SignUp";
+    }
+
+    <h1>SignUp</h1>*@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>OutReach | Registration</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <!-- Fonts and icons -->
+    <link href="~/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    @*<script type="text/javascript">
+        $(document).ready(function () {
+            console.log($("#city").val());
+        });
+    </script>*@
+</head>
+
+<body class="login-body">
+    <div class="box">
+        <div class="inner-box"></div>
+    </div>
+    <div class="login-page">
+        <div class="login-form registration-form">
+            <div class="login-item">
+                <form action="" method="post" class="form form-login">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h5 class="mb-0 color-green font-weight-bold">REGISTRATION</h5>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group form-check d-flex align-items-center justify-content-between mb-4">
+                                <label class="form-check-label pt-0">
+                                    <input class="form-check-input" type="checkbox"> Do you own a business that you want
+                                    to register with us?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 p-0 mb-1 mt-2">
+                        <h6 class="mb-0 color-green font-weight-bold">USER DETAILS</h6>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="firstname" type="text" class="form-input email-input"
+                                       placeholder="First Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="lastname" type="text" class="form-input email-input"
+                                       placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="email" type="email" class="form-input email-input"
+                                       placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="mobile" type="number" class="form-input email-input"
+                                       placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="password" type="password" class="form-input email-input"
+                                       placeholder="Password" required>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="confirmpassword" type="password" class="form-input email-input"
+                                       placeholder="Confirm Password" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="street" type="text" class="form-input email-input" placeholder="Street"
+                                       required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="city" type="text" class="form-input email-input" placeholder="City"
+                                        required>
+                                    <option>Select City</option>
+                                    <option value="1">Alexander City</option>
+                                    <option value="2">Athens</option>
+                                    <option value="3">Anchorage</option>
+                                    <option value="4">Cordova</option>
+                                    <option value="5">Avondale</option>
+                                    <option value="6">Chandler</option>
+                                    <option value="7">ABBEVILLE</option>
+                                    <option value="8">ADAMSVILLE</option>
+                                    <option value="9">ADDISON</option>
+                                    <option value="10">AKRON</option>
+                                    <option value="11">ALABASTER</option>
+                                    <option value="12">ALBERTVILLE</option>
+                                    <option value="13">ALEXANDRIA</option>
+                                    <option value="14">ALICEVILLE</option>
+                                    <option value="15">ALLGOOD</option>
+                                    <option value="16">ALTOONA</option>
+                                    <option value="17">ANDALUSIA</option>
+                                    <option value="18">ANDERSON</option>
+                                    <option value="19">ANNISTON</option>
+                                    <option value="20">ARAB</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="state" type="text" class="form-input email-input" placeholder="State" required>
+                                    <option>Select State</option>
+                                    <option value="1">Alabama</option>
+                                    <option value="2">Alaska</option>
+                                    <option value="3">Arizona</option>
+                                    <option value="4">American Samoa</option>
+                                    <option value="5">Arkansas</option>
+                                    <option value="6">California</option>
+                                    <option value="7">Colorado</option>
+                                    <option value="8">Connecticut</option>
+                                    <option value="9">Delaware</option>
+                                    <option value="10">District Of Columbia</option>
+                                    <option value="11">Federated States Of Micronesia</option>
+                                    <option value="12">Florida</option>
+                                    <option value="13">Georgia</option>
+                                    <option value="14">Guam</option>
+                                    <option value="15">Hawaii</option>
+                                    <option value="16">Idaho</option>
+                                    <option value="17">Illinois</option>
+                                    <option value="18">Indiana</option>
+                                    <option value="19">Iowa</option>
+                                    <option value="20">Kansas</option>
+                                    <option value="21">Kentucky</option>
+                                    <option value="22">Louisiana</option>
+                                    <option value="23">Maine</option>
+                                    <option value="24">Marshall Islands</option>
+                                    <option value="25">Maryland</option>
+                                    <option value="26">Massachusetts</option>
+                                    <option value="27">Michigan</option>
+                                    <option value="28">Minnesota</option>
+                                    <option value="29">Mississippi</option>
+                                    <option value="30">Missouri</option>
+                                    <option value="31">Montana</option>
+                                    <option value="32">Nebraska</option>
+                                    <option value="33">Nevada</option>
+                                    <option value="34">New Hampshire</option>
+                                    <option value="35">New Jersey</option>
+                                    <option value="36">New Mexico</option>
+                                    <option value="37">New York</option>
+                                    <option value="38">North Carolina</option>
+                                    <option value="39">North Dakota</option>
+                                    <option value="40">Northern Mariana Islands</option>
+                                    <option value="41">Ohio</option>
+                                    <option value="42">Oklahoma</option>
+                                    <option value="43">Oregon</option>
+                                    <option value="44">Palau</option>
+                                    <option value="45">Pennsylvania</option>
+                                    <option value="46">Puerto Rico</option>
+                                    <option value="47">Rhode Island</option>
+                                    <option value="48">South Carolina</option>
+                                    <option value="49">South Dakota</option>
+                                    <option value="50">Tennessee</option>
+                                    <option value="51">Texas</option>
+                                    <option value="52">Utah</option>
+                                    <option value="53">Vermont</option>
+                                    <option value="54">Virgin Islands</option>
+                                    <option value="55">Virginia</option>
+                                    <option value="56">Washington</option>
+                                    <option value="57">West Virginia</option>
+                                    <option value="58">Wisconsin</option>
+                                    <option value="59">Wyoming</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="country" type="text" class="form-input email-input" placeholder="Country"
+                                        required>
+                                    <option value="0">Select Country</option>
+                                    <option value="1">United States</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="zipcode" type="text" class="form-input email-input" placeholder="Zip"
+                                       required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="referralcode" type="text" class="form-input email-input" placeholder="Referralcode"
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Business Details -->
+                    <div class="row mb-1 mt-4">
+                        <div class="col-sm-12">
+                            <h6 class="mb-0 color-green font-weight-bold text-uppercase"><u>Business Details</u></h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businessname" type="text" class="form-input email-input"
+                                       placeholder="Business Name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businessphone" type="number" class="form-input email-input"
+                                       placeholder="Business Phone Number" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businesstype" type="text" class="form-input email-input"
+                                       placeholder="Business Type" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businessregnumber" type="number" class="form-input email-input"
+                                       placeholder="Business Reg Number" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businessrating" type="text" class="form-input email-input"
+                                       placeholder="Business Rating" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businesskeywords" type="text" class="form-input email-input"
+                                       placeholder="Business Keywords" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businesslink" type="text" class="form-input email-input"
+                                       placeholder="Business Link" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businessstreet" type="text" class="form-input email-input" placeholder="Street"
+                                       required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="businesscity" type="text" class="form-input email-input" placeholder="City"
+                                        required>
+                                    <option>Select City</option>
+                                    <option value="1">Alexander City</option>
+                                    <option value="2">Athens</option>
+                                    <option value="3">Anchorage</option>
+                                    <option value="4">Cordova</option>
+                                    <option value="5">Avondale</option>
+                                    <option value="6">Chandler</option>
+                                    <option value="7">ABBEVILLE</option>
+                                    <option value="8">ADAMSVILLE</option>
+                                    <option value="9">ADDISON</option>
+                                    <option value="10">AKRON</option>
+                                    <option value="11">ALABASTER</option>
+                                    <option value="12">ALBERTVILLE</option>
+                                    <option value="13">ALEXANDRIA</option>
+                                    <option value="14">ALICEVILLE</option>
+                                    <option value="15">ALLGOOD</option>
+                                    <option value="16">ALTOONA</option>
+                                    <option value="17">ANDALUSIA</option>
+                                    <option value="18">ANDERSON</option>
+                                    <option value="19">ANNISTON</option>
+                                    <option value="20">ARAB</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="businessstate" type="text" class="form-input email-input" placeholder="State"
+                                        required>
+                                    <option>Select State</option>
+                                    <option value="1">Alabama</option>
+                                    <option value="2">Alaska</option>
+                                    <option value="3">Arizona</option>
+                                    <option value="4">American Samoa</option>
+                                    <option value="5">Arkansas</option>
+                                    <option value="6">California</option>
+                                    <option value="7">Colorado</option>
+                                    <option value="8">Connecticut</option>
+                                    <option value="9">Delaware</option>
+                                    <option value="10">District Of Columbia</option>
+                                    <option value="11">Federated States Of Micronesia</option>
+                                    <option value="12">Florida</option>
+                                    <option value="13">Georgia</option>
+                                    <option value="14">Guam</option>
+                                    <option value="15">Hawaii</option>
+                                    <option value="16">Idaho</option>
+                                    <option value="17">Illinois</option>
+                                    <option value="18">Indiana</option>
+                                    <option value="19">Iowa</option>
+                                    <option value="20">Kansas</option>
+                                    <option value="21">Kentucky</option>
+                                    <option value="22">Louisiana</option>
+                                    <option value="23">Maine</option>
+                                    <option value="24">Marshall Islands</option>
+                                    <option value="25">Maryland</option>
+                                    <option value="26">Massachusetts</option>
+                                    <option value="27">Michigan</option>
+                                    <option value="28">Minnesota</option>
+                                    <option value="29">Mississippi</option>
+                                    <option value="30">Missouri</option>
+                                    <option value="31">Montana</option>
+                                    <option value="32">Nebraska</option>
+                                    <option value="33">Nevada</option>
+                                    <option value="34">New Hampshire</option>
+                                    <option value="35">New Jersey</option>
+                                    <option value="36">New Mexico</option>
+                                    <option value="37">New York</option>
+                                    <option value="38">North Carolina</option>
+                                    <option value="39">North Dakota</option>
+                                    <option value="40">Northern Mariana Islands</option>
+                                    <option value="41">Ohio</option>
+                                    <option value="42">Oklahoma</option>
+                                    <option value="43">Oregon</option>
+                                    <option value="44">Palau</option>
+                                    <option value="45">Pennsylvania</option>
+                                    <option value="46">Puerto Rico</option>
+                                    <option value="47">Rhode Island</option>
+                                    <option value="48">South Carolina</option>
+                                    <option value="49">South Dakota</option>
+                                    <option value="50">Tennessee</option>
+                                    <option value="51">Texas</option>
+                                    <option value="52">Utah</option>
+                                    <option value="53">Vermont</option>
+                                    <option value="54">Virgin Islands</option>
+                                    <option value="55">Virginia</option>
+                                    <option value="56">Washington</option>
+                                    <option value="57">West Virginia</option>
+                                    <option value="58">Wisconsin</option>
+                                    <option value="59">Wyoming</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <select id="businesscountry" type="text" class="form-input email-input" placeholder="Country"
+                                        required>
+                                    <option>Select Country</option>
+                                    <option value="1">United States</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-field email-form-field">
+                                <input id="businesszip" type="text" class="form-input email-input" placeholder="Zip"
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Business Details -->
+                    <div class="form-group form-check d-flex align-items-center justify-content-between mb-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> I agree to the <span class="color-green">Term and Conditions</span> and <span class="color-green">
+                                Privacy
+                                Policy
+                            </span>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">
+                            <div class="form-field border-0 mb-4 primary-bg submit-btn d-flex align-items-center">
+                                <input type="submit" value="Sign Up" class="">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h6 class="text-center">
+                        Already An Account? <span class="font-weight-bold">
+                            <a class="color-green"
+                               href="#">Login</a>
+                        </span>
+                    </h6>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-nav w-100">
+        <p class="copyright mb-0 text-white">©2020 OutReach. All rights reserved.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/default.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+2020-11-24T17:23:33.7630911+05:30 80000072-0005-f800-b63f-84710c7967bb [ERR] Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.ServiceDataModel' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1. (c3933d91)
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Outreach_FRMS_Model.ServiceDataModel' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Outreach_FRMS_BL.UserService.BusinessClaimGet(BusinessClaimModel model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 2613
+   at Outreach_FRMS_API.Controllers.UserController.GetBusinessClaim(BusinessClaimModel model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 1651

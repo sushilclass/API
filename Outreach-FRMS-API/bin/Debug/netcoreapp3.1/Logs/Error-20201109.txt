@@ -1,0 +1,12 @@
+2020-11-09T20:27:31.5954135+05:30 8000013c-0001-fe00-b63f-84710c7967bb [ERR] Sequence contains more than one matching element (485a7314)
+System.InvalidOperationException: Sequence contains more than one matching element
+   at System.Linq.ThrowHelper.ThrowMoreThanOneMatchException()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Outreach_FRMS_BL.UserService.GetInviteeList(Invite model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1530
+   at Outreach_FRMS_API.Controllers.UserController.InviteeList(Invite model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 987
+2020-11-09T20:31:55.3610014+05:30 800001f1-0004-f900-b63f-84710c7967bb [ERR] Sequence contains more than one matching element (485a7314)
+System.InvalidOperationException: Sequence contains more than one matching element
+   at System.Linq.ThrowHelper.ThrowMoreThanOneMatchException()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Outreach_FRMS_BL.UserService.GetInviteeList(Invite model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 1530
+   at Outreach_FRMS_API.Controllers.UserController.InviteeList(Invite model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 987

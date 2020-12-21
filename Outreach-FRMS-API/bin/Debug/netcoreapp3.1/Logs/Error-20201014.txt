@@ -1,0 +1,3 @@
+2020-10-14T17:51:44.6940544+05:30 8000027d-0000-fe00-b63f-84710c7967bb [ERR] An error occurred using the connection to database '"Outreach-FMRS"' on server '"DBPROD\SQL2017"'. (5fc3407c)
+2020-10-14T17:52:57.3688535+05:30 8000035b-0003-fe00-b63f-84710c7967bb [ERR] An error occurred using the connection to database '"Outreach-FMRS"' on server '"DBPROD\SQL2017"'. (5fc3407c)
+2020-10-14T23:12:18.8213543+05:30 8000002a-0002-fd00-b63f-84710c7967bb [ERR] An error occurred using the connection to database '"Outreach-FMRS"' on server '"DBPROD\SQL2017"'. (5fc3407c)

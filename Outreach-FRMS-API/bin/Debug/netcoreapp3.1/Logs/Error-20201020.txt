@@ -1,0 +1,7 @@
+2020-10-20T18:09:42.2465012+05:30 80000047-0003-fd00-b63f-84710c7967bb [ERR] Column 'BusinessPhoneNo' does not belong to table . (0b0ab2e8)
+System.ArgumentException: Column 'BusinessPhoneNo' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Outreach_FRMS_BL.UserService.GetUserList() in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 79
+   at Outreach_FRMS_BL.UserService.Validate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-BL\UserService.cs:line 116
+   at Outreach_FRMS_API.Controllers.UserController.UserValidate(AuthenticateRequest model) in E:\Outreach-FRMS\Outreach-FRMS-API\Controllers\UserController.cs:line 200
